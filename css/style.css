@@ -1,0 +1,84 @@
+
+body {
+	background: #183986;
+	margin: 0;
+	padding: 0;
+	color:#fff;
+}
+#vanilla-demo, #link, .vanilla-result, #publish{
+ 	display: none;
+ }
+ h3{
+ 	text-align: center;
+ }
+ .croppie-container{
+ 	height: auto;
+ }
+ .controls a, .controls button{
+ 	margin: 3px auto;
+ 	border:none;
+ 	background: #f95646;
+  	width: 180px;
+  	padding: 15px 0;
+  	border-radius: 30px;
+  	text-align: center;
+	text-transform: uppercase;
+	color: #FFF;
+	user-select: none;
+ }
+ #myImg{
+ 	display: block;
+ 	margin: 10px auto;
+ }
+
+
+
+
+
+
+.file-upload-wrapper {
+  text-align: center;
+  position: relative;
+  height: 60px;
+}
+ .file-upload-wrapper:after {
+    content: attr(data-text);
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -150px;
+    background: #f95646;
+    padding: 10px 0;
+    
+    pointer-events: none;
+    z-index: 20;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    border-radius: 30px;
+    font-weight: 300;
+    display: block;
+   
+  }
+
+
+.file-upload-wrapper input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+  }
